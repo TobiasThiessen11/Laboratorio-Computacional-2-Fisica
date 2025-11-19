@@ -1,0 +1,57 @@
+# ============================
+# Entornos virtuales de Python
+# ============================
+venv/
+.venv/
+env/
+ENV/
+python_env/
+Pipfile.lock
+
+# ====================================
+# Archivos de caché y compilados Python
+# ====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===================
+# Archivos de Matplotlib
+# ===================
+*.png
+*.svg
+
+# ===================
+# Carpeta de gráficos generados
+# ===================
+graphics/
+figures/
+
+# ============================
+# Archivos de VS Code y editor
+# ============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ============================
+# Archivos de sistema / basura
+# ============================
+Thumbs.db
+.DS_Store
+
+# =========================================
+# Configuración automática de Python en Win
+# =========================================
+*.spec
+
+# ============================
+# Logs
+# ============================
+*.log
+
+# ============================
+# Jupyter (por si lo usás más adelante)
+# ============================
+.ipynb_checkpoints/
