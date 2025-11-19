@@ -23,7 +23,7 @@ Desarrollado en **Python**, utilizando `numpy` para el cálculo numérico y `mat
 ---
 
 ## Estructura del Proyecto
-
+```bash
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -33,7 +33,7 @@ Desarrollado en **Python**, utilizando `numpy` para el cálculo numérico y `mat
 │ └── graficos.py # Funciones para graficar en 2D y 3D
 ├── graphics/ # Carpeta opcional para guardar imágenes
 └── .venv/ # Entorno virtual de Python
-
+```
 ## Requisitos
 
 - Python 3.8 o superior  
