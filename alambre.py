@@ -8,9 +8,9 @@ def biot_savart(I, r_puntos, r_prima, dl):
     dB = mu0 * I / (4*np.pi) * np.cross(dl, R) / (R_norm**3)
     return dB
 
-def campo_alambre(I, L, N, r_puntos):
-    # Alambre centrado en z, desde -L/2 hasta L/2
-    zs = np.linspace(-L/2, L/2, N)
+def campo_alambre(I, L, N, r_puntos, z_offset=0):
+    # Alambre centrado en z, desde -L/2 hasta L/2, con offset
+    zs = np.linspace(-L/2 + z_offset, L/2 + z_offset, N)
     dz = zs[1] - zs[0]
     dl = np.array([0, 0, dz])
 
